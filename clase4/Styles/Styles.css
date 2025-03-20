@@ -1,0 +1,15 @@
+.destacado{
+    font-weight: 600;
+    color: chocolate;
+    font-size: 25px;
+}
+
+#importante{
+    color: blue;
+    font-size: 30px;
+    background-color: burlywood;
+}
+
+.youtube{
+    margin-top: 20px;
+}
