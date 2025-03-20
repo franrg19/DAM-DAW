@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La web de Fran</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1 class=titulo>BIENVENIDOS A LA WEB DE FRAN</h1>
+    <img src="img/logo fr 1.jpg" alt="mi logo" width="350">
+    <h2>Esta sera mi pagina web para mostrar mi desarrollo en la FP DAM que estoy cursando</h2>
+
+
+    <nav>
+        <ul>
+            <li> <a href="#sobre_mi">Sobre mi</a></li>
+            <li> <a href="#Estudios">Estudios</a></li>
+            <li> <a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="#sobre_mi">
+        <h2>Sobre mi</h2>
+        <p>Me llamo Fran, soy de Málaga y actualmente compagino mi trabajo en un campo de golf con mis estudios de Dam</p>
+    </section>
+
+    <section id="#Estudios">
+        <h2>Estudios</h2>
+        <ul>
+            <li>Bachiller ciencias sociales</li>
+            <li>Tecnico en emergencias sanitarias</li>
+            <li>Direccion deportiva y operaciones campos de golf</li>
+            <li>Direccion y Gestión de campos de Golf</li>
+            <li>Estrategias de MK aplicadas al golf</li>
+            <li>Desarrollo paginas webs con Wordpress</li>
+        </ul>
+
+        <section id="#contacto">
+            
+        </section>
+
+    </section>
+
+    <section>
+        <h2>Horario clases</h2>
+        <table class="horario" border="4">
+            <caption>
+                <Strong>Horario Clases DAM</Strong>
+            </caption>
+            <tbody>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>jueves</th>
+                <th>viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+            
+            <tr>
+                <td>16:00 - 17:00</td>
+                <td>ITP</td>
+                <td>Bases de Datos</td>
+                <td></td>
+                <td>Entornos Desarrollo</td>
+                <td>Libre</td>    
+                <td>Libre</td>    
+                <td>Libre</td>    
+                </tr>  
+                
+                <tr>
+                    <td>17:00 - 18:00</td>
+                    <td>Lenguaje de marcas</td>
+                    <td>Entornos</td>
+                    <td>ITP</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>18:00 - 19:00</td>
+                    <td>Lenguaje de marcas</td>
+                    <td></td>
+                    <td>Programacion</td>
+                    <td>Sistemas informaticos</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>19:00 - 20:00</td>
+                    <td>MPO</td>
+                    <td>MPO</td>
+                    <td>Programación</td>
+                    <td>Sistemas informaticos</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>20:00 - 21:00</td>
+                    <td></td>
+                    <td>Bases de datos</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+<br>
+    <section>
+        <h2 id="contacto"><strong>Formulario de Contacto</strong></h2>
+
+        <form action="Formulario de contacto" method="post"></form>
+        <fieldset>
+            <legend>Tus Datos</legend>
+
+            <label for="Nombre">Nombre:</label>
+            <br>
+            <input type="text" id="name" placeholder="Introduce tu nombre">
+            <br>
+
+            <label for="Apellidos">Apellidos</label>
+            <br>
+            <input type="text" id="Apellidos" placeholder="Apellidos">
+            <br>
+
+            <label for="telefono">Telefono: </label>
+            <br>
+            <input type="number" id="telefono" placeholder="Telefono">
+            <br>
+
+            <label for="Email">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="email">
+            <br>
+
+            <label for="Sexo">Sexo</label>
+            <br>
+            <select name="Sexo" id="Sexo">
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+            <option value="Otro">Otro</option>
+            </select>
+            <br>
+            
+        </fieldset>
+
+            <label for="Mensaje"><strong>Mensaje</strong></label>
+            <br>
+            <textarea name="Mensaje" id="Mensaje" rows="5" placeholder="Deja aqui tu mensaje"></textarea>
+            <br>
+            <button type="submit">Enviar mensaje</button>
+            <br>
+        
+    </section>
+    
+</body>
+</html>
